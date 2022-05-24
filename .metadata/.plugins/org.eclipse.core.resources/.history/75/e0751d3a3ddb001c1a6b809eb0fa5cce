@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APIMiniProject">
+    <test name="PUTResponseTests">
+       <classes>
+        <parameter name="featurePath" value="src/test/java/features/PUTResponse.feature" /> 	
+       <class name="runner.testngRunnerSpecific" />
+    </classes>
+     
+    </test>
+    <test name="GETResponseTests">
+       <classes>
+        <parameter name="featurePath" value="src/test/java/features/GETResponse.feature" /> 	
+       <class name="runner.testngRunnerSpecific" />
+    </classes>
+    </test>
+    <test name="POSTResponseTests">
+       <classes>
+        <parameter name="featurePath" value="src/test/java/features/POSTResponse.feature" /> 	
+       <class name="runner.testngRunnerSpecific" />
+    </classes>
+    </test>
+</suite>

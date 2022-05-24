@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PUTResponse.feature">
+    <test name="test">
+       <classes>
+        <parameter name="featurePath" value="src/test/java/features/PUTResponse.feature" /> 	
+       <class name="runner.testngRunner2" />
+    </classes>
+     
+    </test>
+    <test name="test">
+       <classes>
+        <parameter name="featurePath" value="src/test/java/features/GETResponse.feature" /> 	
+       <class name="runner.testngRunner2" />
+    </classes>
+     
+    </test>
+</suite>

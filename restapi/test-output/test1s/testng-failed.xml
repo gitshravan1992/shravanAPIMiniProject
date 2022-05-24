@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1s]">
+  <parameter name="scenario" value="PUTResponse.feature"/>
+  <test name="test(failed)">
+    <parameter name="scenario" value="PUTResponse.feature"/>
+    <classes>
+      <class name="runner.testRunner">
+        <methods>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.testRunner -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [test1s] -->

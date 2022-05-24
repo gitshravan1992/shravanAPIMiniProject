@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="APIMiniProject" duration-ms="12550" started-at="2022-05-24T08:47:29Z" finished-at="2022-05-24T08:47:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="APITests" duration-ms="12550" started-at="2022-05-24T08:47:29Z" finished-at="2022-05-24T08:47:41Z">
+      <class name="runner.testngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.testngRunner@239963d8]" name="setUpClass" is-config="true" duration-ms="401" started-at="2022-05-24T14:17:29Z" finished-at="2022-05-24T14:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="2511" started-at="2022-05-24T14:17:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate GET response of locations when key is not entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate GET response services of "https://hotels4.p.rapidapi.com" (rapidApiUrl="https://hotels4.p.rapidapi.com")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="1223" started-at="2022-05-24T14:17:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate GET response for locations  when key is entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate GET response services of "https://hotels4.p.rapidapi.com" (rapidApiUrl="https://hotels4.p.rapidapi.com")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="736" started-at="2022-05-24T14:17:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response of login when body is not entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="953" started-at="2022-05-24T14:17:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for login where body contains blank/empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="615" started-at="2022-05-24T14:17:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for login where body contains invalid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="614" started-at="2022-05-24T14:17:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for login where body contains valid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="611" started-at="2022-05-24T14:17:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response of register when body is not entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="621" started-at="2022-05-24T14:17:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for register where body contains blank/empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="654" started-at="2022-05-24T14:17:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for register where body contains invalid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="710" started-at="2022-05-24T14:17:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate POST response for register where body contains valid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate POST response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="638" started-at="2022-05-24T14:17:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate PUT response of users when body is not entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate PUT response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="632" started-at="2022-05-24T14:17:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate PUT response for users  when body contains name and job"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate PUT response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="658" started-at="2022-05-24T14:17:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate PUT response for users  when body contains name and job"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate PUT response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testngRunner@239963d8]" name="runScenario" duration-ms="640" started-at="2022-05-24T14:17:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T14:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate PUT response for users  when body contains name and job"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To Validate PUT response services of "https://reqres.in/api" (resApiUrl="https://reqres.in/api")]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.testngRunner@239963d8]" name="tearDownClass" is-config="true" duration-ms="307" started-at="2022-05-24T14:17:41Z" finished-at="2022-05-24T14:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.testngRunner -->
+    </test> <!-- APITests -->
+  </suite> <!-- APIMiniProject -->
+</testng-results>

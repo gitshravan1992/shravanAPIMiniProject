@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PUTResponse.feature">
+    <test name="test">
+       <classes>
+        <parameter name=CUCUMBER_OPTIONS" value="PUTResponse.feature" /> 	
+       <class name="runner.testRunner" />
+    </classes>
+     
+    </test>
+</suite>

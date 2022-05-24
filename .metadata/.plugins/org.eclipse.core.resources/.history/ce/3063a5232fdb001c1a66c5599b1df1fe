@@ -1,0 +1,71 @@
+package runner;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import io.cucumber.java.Scenario;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.PickleWrapper;
+import io.cucumber.testng.TestNGCucumberRunner;
+
+
+
+@CucumberOptions(
+   features = "src/test/java/features/",
+   glue = "stepDefination",
+	plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/cucumber-reports/report.html"},
+
+   monochrome = true,
+	strict = true
+   )
+public class testRunner extends AbstractTestNGCucumberTests{
+	
+	@BeforeClass 
+	public void setup(Scenario scenario ) {
+		System.out.println("shravan did "+scenario.getName());
+		System.out.println("shravan did "+scenario.getSourceTagNames());
+		testRunner test;
+
+		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+
+		test.r
+	}
+	
+	
+	private TestNGCucumberRunner testNGCucumberRunner;
+    private String browser;
+
+    @BeforeClass(alwaysRun = true)
+    public void setUpClass() {
+    }
+
+    @Parameters("browser")
+    @BeforeTest
+    public void beforeSuite(String browser) {
+        System.out.println("Browser for this test set is " + browser);
+        this.browser = browser;
+    }
+
+    @Test(groups = "Cucumber", description = "Runs Cucumber Feature", dataProvider = "scenarios")
+    public void scenario(PickleWrapper pickleEvent, CucumberFeatureWrapper cucumberFeature) throws Throwable {
+
+        testNGCucumberRunner.runScenario(pickleEvent.getPickleEvent());
+    }
+
+    @DataProvider
+    public Object[][] scenarios() {
+        return testNGCucumberRunner.provideScenarios();
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void tearDownClass() throws Exception {
+        testNGCucumberRunner.finish();
+    }
+	
+	
+}

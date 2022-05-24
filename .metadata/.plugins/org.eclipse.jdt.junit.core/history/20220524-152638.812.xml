@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="junitRunner" project="restapi" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.junitRunner" time="4.396">
+    <testsuite name="To Validate GET response services of &quot;https://hotels4.p.rapidapi.com&quot; (rapidApiUrl=&quot;https://hotels4.p.rapidapi.com&quot;)" time="4.396">
+      <testcase name="To validate GET response of locations when key is not entered(To Validate GET response services of &quot;https://hotels4.p.rapidapi.com&quot; " classname="rapidApiUrl=&quot;https://hotels4.p.rapidapi.com&quot;)" time="2.574"/>
+      <testcase name="To validate GET response for locations  when key is entered(To Validate GET response services of &quot;https://hotels4.p.rapidapi.com&quot; " classname="rapidApiUrl=&quot;https://hotels4.p.rapidapi.com&quot;)" time="1.822"/>
+    </testsuite>
+  </testsuite>
+</testrun>

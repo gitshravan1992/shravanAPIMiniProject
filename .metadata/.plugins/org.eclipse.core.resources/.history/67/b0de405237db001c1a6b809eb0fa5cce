@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ApiTesting">
+    <test name="test">
+       <classes>
+       <class name="runner.testRunner2" />
+    </classes>
+     
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+package runner;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+
+
+@CucumberOptions(
+   features = "src/test/java/features/GETResponse.feature",
+   glue = "stepDefination",
+	//plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/cucumber-reports1/report.html"},
+
+   monochrome = true,
+	strict = true
+   )
+@Test
+public class testRunner {
+	
+
+}

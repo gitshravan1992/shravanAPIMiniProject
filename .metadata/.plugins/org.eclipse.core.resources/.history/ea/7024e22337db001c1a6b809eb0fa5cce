@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PUTResponse.feature">
+    <test name="test">
+       <classes>
+        <parameter name="features" value="PUTResponse.feature" /> 	
+       <class name="runner.testRunner2" />
+    </classes>
+     
+    </test>
+</suite>

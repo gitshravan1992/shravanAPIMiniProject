@@ -1,0 +1,54 @@
+package runner;
+
+import java.util.List;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import io.cucumber.core.gherkin.Feature;
+import io.cucumber.java.Scenario;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.PickleWrapper;
+import io.cucumber.testng.TestNGCucumberRunner;
+
+
+
+@CucumberOptions(
+   features = "src/test/java/features/",
+   glue = "stepDefination",
+	plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/cucumber-reports/report.html"},
+
+   monochrome = true,
+	strict = true
+   )
+public class testRunner extends AbstractTestNGCucumberTests{
+	
+
+	TestNGCucumberRunner testNGCucumberRunner;
+	Feature CucumberFeature;
+
+	@Parameters({"featurename"})
+	@BeforeTest(alwaysRun = true)
+	public void setUpTest(String featureName) throws Exception {
+
+	    testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+	    
+	    List<Feature> featureList = testNGCucumberRunner.provideScenarios();
+	    
+	    for (Feature feature : featureList){
+	        if (featureName.equalsIgnoreCase(((Object) feature).getPath())){
+	            runFeature = feature;
+	            break;
+	        }
+	    }
+	}
+	
+]
+	
+}

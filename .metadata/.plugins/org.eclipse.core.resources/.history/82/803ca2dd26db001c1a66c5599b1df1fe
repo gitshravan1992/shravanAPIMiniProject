@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="tests" allow-return-values="true" verbose="10">
+    <test name="Bing-Search-Sample-Test">
+        <parameter name="testInterfaceXML" value="SearchInterface.xml"></parameter>
+        <parameter name="testSuiteXML" value="SearchTest.xml"></parameter>
+        <groups>
+            <run>
+                <include name="sample-tests" />
+            </run>
+        </groups>
+        <classes>
+            <class name="package.TestFactory" />
+        </classes>
+    </test>
+</suite>

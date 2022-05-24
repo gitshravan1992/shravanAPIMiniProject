@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="tests" allow-return-values="true" verbose="10">
+    <test name="Bing-Search-Sample-Test">
+       <classes>
+       <class name="runner.testRunner"/>
+    </classes>
+     
+    </test>
+</suite>

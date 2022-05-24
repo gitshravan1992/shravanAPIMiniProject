@@ -1,0 +1,299 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/GETResponse.feature");
+formatter.feature({
+  "name": "To Validate GET response services of \"https://hotels4.p.rapidapi.com\" (rapidApiUrl\u003d\"https://hotels4.p.rapidapi.com\")",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "To validate GET response of locations when key is not entered",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user has generated \"\u003ctoken\u003e\" token for Authorization",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user has entered below query params",
+  "keyword": "And ",
+  "rows": [
+    {
+      "cells": [
+        "query",
+        "new york"
+      ]
+    },
+    {
+      "cells": [
+        "locale",
+        "en_US"
+      ]
+    },
+    {
+      "cells": [
+        "currency",
+        "USD"
+      ]
+    }
+  ]
+});
+formatter.step({
+  "name": "user performs GET \"\u003curl\u003e/locations/v2/search\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user retrieves response status code as \u003cresponse\u003e",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user validates whether jsons body \"\u003ckey\u003e\" contains value \"\u003cvalue\u003e\"",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "token",
+        "url",
+        "response",
+        "key",
+        "value"
+      ]
+    },
+    {
+      "cells": [
+        "valid",
+        "rapidApiUrl",
+        "401",
+        "message",
+        "Invalid API key"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To validate GET response of locations when key is not entered",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user has generated \"valid\" token for Authorization",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.authorization(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user has entered below query params",
+  "rows": [
+    {},
+    {},
+    {}
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.setQueryParam(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user performs GET \"rapidApiUrl/locations/v2/search\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.getResponse_login(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user retrieves response status code as 401",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.validateStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validates whether jsons body \"message\" contains value \"Invalid API key\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.validatesContainsDetails(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "To validate GET response for locations  when key is entered",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user has generated \"\u003ctoken\u003e\" token for Authorization",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user has entered below query params",
+  "keyword": "And ",
+  "rows": [
+    {
+      "cells": [
+        "query",
+        "new york"
+      ]
+    },
+    {
+      "cells": [
+        "locale",
+        "en_US"
+      ]
+    },
+    {
+      "cells": [
+        "currency",
+        "USD"
+      ]
+    }
+  ]
+});
+formatter.step({
+  "name": "user has entered below header params",
+  "keyword": "And ",
+  "rows": [
+    {
+      "cells": [
+        "X-RapidAPI-Host",
+        "hotels4.p.rapidapi.com"
+      ]
+    },
+    {
+      "cells": [
+        "X-RapidAPI-Key",
+        "a29d5640bamsh270ea91155b90ddp1a090fjsn5f2784b9ad80"
+      ]
+    }
+  ]
+});
+formatter.step({
+  "name": "user performs GET \"\u003curl\u003e/locations/v2/search\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user retrieves response status code as \u003cresponse\u003e",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user validates whether jsons body \"\u003ckey\u003e\" contains value \"\u003cvalue\u003e\"",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "token",
+        "url",
+        "response",
+        "key",
+        "value"
+      ]
+    },
+    {
+      "cells": [
+        "valid",
+        "rapidApiUrl",
+        "403",
+        "message",
+        "You are not subscribed to this API"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To validate GET response for locations  when key is entered",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user has generated \"valid\" token for Authorization",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.authorization(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user has entered below query params",
+  "rows": [
+    {},
+    {},
+    {}
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.setQueryParam(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user has entered below header params",
+  "rows": [
+    {},
+    {}
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.setHeaderParam(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user performs GET \"rapidApiUrl/locations/v2/search\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.getResponse_login(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user retrieves response status code as 403",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.validateStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validates whether jsons body \"message\" contains value \"You are not subscribed to this API\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefination.stepsdef.validatesContainsDetails(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+});
