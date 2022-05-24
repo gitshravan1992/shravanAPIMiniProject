@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cucumber.api.testng.CucumberFeatureWrapper"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
+<fullyQualifiedTypeName name="cucumber.api.testng.TestNGCucumberRunner"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.TestNGCucumberRunner"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.PickleWrapper"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.FeatureWrapper"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+<fullyQualifiedTypeName name="io.cucumber.java.Scenario"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+<fullyQualifiedTypeName name="org.apache.poi.ddf.EscherColorRef.SysIndexProcedure"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.Pickle"/>
+<fullyQualifiedTypeName name="io.restassured.http.Method"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Optional"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="io.cucumber.messages.internal.com.google.protobuf.Field"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+</qualifiedTypeNameHistroy>

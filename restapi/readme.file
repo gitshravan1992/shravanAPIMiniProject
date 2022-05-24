@@ -1,0 +1,27 @@
+API Testing for https://reqres.in/api and https://hotels4.p.rapidapi.com
+
+Requirement:
+
+Java
+Opensource Libraries - RestAssured, Testng, extent report
+Maven - for Building project
+Testng - For execution and reporting
+TestScript - RestAssured - BDD - Gherkin syntax
+
+Execution Process
+
+Import this project in eclipse
+
+TestNG:
+Right click on restapi\testng.xml run as Testng Test
+
+JUnit:
+Right click on restapi\src\test\java\runner\junitRunner.java run as JunitTest
+
+Output location 
+
+TestNG:
+restapi\test-output\ApiProject\results.html
+
+JUnit:
+restapi\target\cucumber-reports\index.html
